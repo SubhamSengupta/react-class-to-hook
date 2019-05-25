@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState as MyUseState } from "react";
 import PropTypes from "prop-types";
 
 class SampleClass extends Component {
