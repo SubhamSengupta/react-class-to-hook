@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class SampleClass extends Component {
   constructor(props) {
@@ -16,6 +17,16 @@ class SampleClass extends Component {
     return (
       <h1>Count is {this.state.count}</h1>
     );
+  }
+}
+
+const helperFunction = () => {
+  return 1 + 3;
+}
+
+class AnotherSample extends Component {
+  render() {
+    return <h1>This is a simple header</h1>;
   }
 }
 
