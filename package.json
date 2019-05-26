@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "acorn": "^6.1.1",
-    "acorn-jsx": "^5.0.1"
+    "acorn-jsx": "^5.0.1",
+    "escodegen": "^1.11.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

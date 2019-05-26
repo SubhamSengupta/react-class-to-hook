@@ -11,6 +11,7 @@ class SampleClass extends Component {
 
   componentDidMount() {
     this.setState({...state, count: this.state.count + 1});
+    helperFunction();
   }
 
   render() {

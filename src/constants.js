@@ -6,3 +6,12 @@ export const CLASSES = "classes";
 export const CONSTRUCTOR = "constructor";
 export const ASSIGNMENT_EXPR = "AssignmentExpression";
 export const STATE = "state";
+export const METHOD = "method";
+export const REACT_LIFECYCLE_METHODS = [
+  "componentDidMount",
+  "componentDidUpdate",
+  "componentWillUnmount",
+  "shouldComponentUpdate",
+  "getDerivedStateFromProps",
+  "getSnapshotBeforeUpdate"
+];
