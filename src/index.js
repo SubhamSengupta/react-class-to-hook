@@ -13,7 +13,7 @@ const process = () => {
   const fileContent = fs.readFileSync(path.resolve(__dirname, "./Sample.js"), "utf-8");
   // parse file
   const parsed = JSXParser.parse(fileContent, {sourceType: "module"});
-  // console.log(JSON.stringify(parsed));
+  console.log(JSON.stringify(parsed));
   // divide into parts
   const parts = categorize(parsed);
   // transform to hooks

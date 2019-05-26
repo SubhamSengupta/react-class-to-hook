@@ -10,8 +10,14 @@ class SampleClass extends Component {
   }
 
   componentDidMount() {
-    this.setState({...state, count: this.state.count + 1});
+    this.setState({...this.state, count: this.state.count + 1});
     helperFunction();
+    const presentCount = this.state.count;
+    this.anotherFunction(this.state.count);
+  }
+
+  anotherFunction(logThis){
+    console.log(logThis)
   }
 
   render() {
